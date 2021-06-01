@@ -12,6 +12,11 @@ const Button = styled.a`
   color: white;
   border: 2px solid white;
 
+  @media (max-width: 420px) {
+    width: 15rem;
+    color: red;
+  }
+
   /* The GitHub button is a primary button
    * edit this to target it specifically! */
   ${(props) =>
