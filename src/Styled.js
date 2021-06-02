@@ -17,6 +17,12 @@ const Button = styled.a`
     color: red;
   }
 
+  @media screen and (max-width: 414px) {
+    .App-header {
+      background-color: #ee4456;
+    }
+  }
+
   /* The GitHub button is a primary button
    * edit this to target it specifically! */
   ${(props) =>
