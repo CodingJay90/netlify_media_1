@@ -8,19 +8,13 @@ const Button = styled.a`
   padding: 0.5rem 0;
   margin: 0.5rem 1rem;
   width: 11rem;
-  background: transparent;
+  //   background: transparent;
   color: white;
   border: 2px solid white;
 
   @media (max-width: 420px) {
     width: 15rem;
     color: red;
-  }
-
-  @media screen and (max-width: 414px) {
-    .App-header {
-      background-color: #ee4456;
-    }
   }
 
   /* The GitHub button is a primary button
